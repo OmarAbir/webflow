@@ -105,6 +105,34 @@ main {
 
 }
 
-.action-img{
+.action-img {
     border-radius: 45px;
+}
+
+/* productive users action style  */
+.productive-users {
+    background-color: #e4e6ff;
+    max-width: 1040px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+.productive-users h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.user-details h2 {
+    color: #4e47ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
 }
