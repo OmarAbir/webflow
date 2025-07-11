@@ -193,13 +193,20 @@ main {
     margin: 8px 0;
 }
 
+
 .reviewer-details {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 25px;
 }
-
+.reviewer-details h6{
+    font-size: 17px;
+}
+.reviewer-details p{
+    font-family: 'inter';
+    color: #252432;
+}
 .reviewer-details img {
     border-radius: 100%;
 }
