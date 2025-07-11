@@ -259,7 +259,7 @@ main {
 
 .get-info h1 {
     font-size: 90px;
-  width: 500px;
+    width: 500px;
 }
 
 .form {
@@ -282,11 +282,51 @@ main {
     margin-top: 8px;
 }
 
-.form-details textarea{
-width: 250px;
-height: 60px;
-border: none;
-border-radius: 5px;
-padding: 15px;
-margin-top: 8px;
+.form-details textarea {
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+
+/* footer style  */
+footer {
+    text-align: center;
+    background-color: white;
+
+    padding: 100px 400px;
+}
+
+footer h1 {
+    color: #4e47ff;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+footer p {
+    color: #8987a1;
+    width: 530px;
+    margin: 15px auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+
+}
+
+.footer-links li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-links li>a {
+    margin-top: 20px;
+    color: #252432;
+    text-decoration: none;
 }
