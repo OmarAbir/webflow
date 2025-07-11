@@ -42,7 +42,7 @@ nav {
     border-radius: 10px;
     padding: 12px 36px;
     border: none;
-    transition: background-color 0.4s ease, transform 0.4s ease;
+    transition: background-color 0.6s ease, transform 0.4s ease;
 }
 
 .nav-btn:hover {
@@ -74,7 +74,7 @@ nav {
     border-radius: 10px;
     padding: 12px 36px;
     border: none;
-    transition: background-color 0.4s ease, transform 0.4s ease;
+    transition: background-color 0.6s ease, transform 0.4s ease;
 }
 
 .banner-btn:hover {
@@ -116,7 +116,7 @@ main {
     border-radius: 10px;
     padding: 12px 36px;
     border: none;
-    transition: background-color 0.4s ease, transform 0.4s ease;
+    transition: background-color 0.6s ease, transform 0.4s ease;
 
 }
 
@@ -156,4 +156,45 @@ main {
     color: #4e47ff;
     font-family: 'Inter', sans-serif;
     font-size: 50px;
+}
+
+
+
+
+/* Users’ Feedback Section style  */
+
+.feedback-title {
+    text-align: center;
+    font-size: 30px;
+   margin-top: 100px;
+   margin-bottom: 30px;
+}
+.feedback-users{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: auto;
+    gap: 15px;
+    
+}
+.feedback-user {
+    background-color: #fafcff;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.feedback-user h4 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.reviewer-details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.reviewer-details img {
+    border-radius: 100%;
 }
